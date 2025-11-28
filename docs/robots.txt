@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://https://axelbase.github.io/faq-schema-generator/sitemap.xml
+Sitemap: https://axelbase.github.io/regex-explanation-gen/sitemap.xml
