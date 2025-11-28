@@ -1,5 +1,3 @@
-export const prerender = true;
-
 type SitemapUrl = {
   loc: string;
   lastmod: string;
