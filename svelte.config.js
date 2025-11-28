@@ -13,11 +13,10 @@ const config = {
 	paths: {
 	  base: '/faq-schema-generator'
 	},
-	prerender: {
-	  entries: ['*'],
-	  handleHttpError: 'warn'
-	}
-  }
+prerender: {
+    entries: ['*', '/sitemap.xml'], // <--- ADD THIS ENTRY
+    handleHttpError: 'warn'
+}  }
 };
 
 export default config;

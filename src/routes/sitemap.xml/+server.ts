@@ -1,3 +1,6 @@
+export const prerender = true;
+export const trailingSlash = 'never'; // Ensures it outputs sitemap.xml (file) and not sitemap.xml/index.html (folder)
+
 type SitemapUrl = {
   loc: string;
   lastmod: string;
