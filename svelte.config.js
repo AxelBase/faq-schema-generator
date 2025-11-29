@@ -7,14 +7,14 @@ const config = {
 	adapter: adapter({
 	  pages: 'docs',
 	  assets: 'docs',
-	  fallback: '404.html',
+	  fallback: undefined,
 	  precompress: false
 	}),
 	paths: {
 	  base: '/faq-schema-generator'
 	},
 prerender: {
-    entries: ['*', '/sitemap_index.xml'], // <--- ADD THIS ENTRY
+    entries: ['*', '/sitemap_index_v2.xml'], // <--- ADD THIS ENTRY
     handleHttpError: 'warn'
 }  }
 };

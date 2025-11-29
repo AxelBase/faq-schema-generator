@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://axelbase.github.io/regex-explanation-gen/sitemap_index.xml
+Sitemap: https://axelbase.github.io/regex-explanation-gen/sitemap_index_v2.xml
