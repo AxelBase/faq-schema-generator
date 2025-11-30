@@ -14,7 +14,7 @@ const config = {
 	  base: '/faq-schema-generator'
 	},
 prerender: {
-    entries: ['*', '/sitemap_index_v2.xml'], // <--- ADD THIS ENTRY
+    entries: ['*', '/sitemap_index_v3.xml'],
     handleHttpError: 'warn'
 }  }
 };
